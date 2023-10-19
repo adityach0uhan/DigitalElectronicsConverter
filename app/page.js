@@ -1,11 +1,14 @@
-import Image from 'next/image'
-
+// import numberSystemsData from '../public/numberSystem.js';
 export default function Home() {
+  // console.log(numberSystemsData)
   return (
     <>
-  Home Page
+
+      <div>
+        hfajdh
+      </div>
     </>
 
 
-      )
+  )
 }
