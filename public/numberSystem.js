@@ -2,7 +2,7 @@ const numberSystemsData = {
   number_systems: [
         {
       name: "Binary",
-      conversions: [
+      conversions:[
                 {
           operation: "Decimal to Binary",
           description: "Convert a decimal number to binary.",
