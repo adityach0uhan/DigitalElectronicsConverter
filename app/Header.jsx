@@ -10,20 +10,20 @@ const Header = () => {
   };
 
   return (
-    <nav className="bg-blue-200 p-4">
+    <nav className="bg-white-100 p-4 ">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/">
-          <div className="text-black text-2xl font-semibold cursor-pointer">Digital Calculator</div>
+          <div className="text-white text-2xl font-semibold cursor-pointer">Digital Calculator</div>
         </Link>
         <div className="hidden md:flex space-x-4">
           <Link href="/">
-            <div className="text-black cursor-pointer hover:underline">Home</div>
+            <div className="text-white cursor-pointer hover:underline">Home</div>
           </Link>
           <Link href="/Modes">
-            <div className="text-black cursor-pointer hover:underline">Modes</div>
+            <div className="text-white cursor-pointer hover:underline">Modes</div>
           </Link>
           <Link href="/about">
-            <div className="text-black cursor-pointer hover:underline">About</div>
+            <div className="text-white cursor-pointer hover:underline">About</div>
           </Link>
         </div>
         <div className="md:hidden relative">
@@ -31,7 +31,7 @@ const Header = () => {
           <button
             id="mobile-menu-button"
             onClick={toggleMobileMenu}
-            className="text-black cursor-pointer w-8 h-8"
+            className="text-white cursor-pointer w-8 h-8"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@ const Header = () => {
           <div
             id="mobile-menu"
             className={`absolute top-12 right-0 transform transition-transform ${mobileMenuOpen ? 'scale-100' : 'scale-0'
-              } origin-top-right bg-green-500 mt-2 p-2 rounded-lg shadow-lg`}
+              } origin-top-right bg-green-100 mt-2 p-2 rounded-lg shadow-lg`}
           >
             <Link href="/">
               <div className="text-black cursor-pointer p-2">Home</div>

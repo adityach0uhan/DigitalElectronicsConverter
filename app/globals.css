@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background-image: url(../public/bgimg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body::before {
+    content: "";
+    background-image: inherit;
+    background-size: inherit;
+    background-position: inherit;
+    background-repeat: inherit;
+    filter: blur(10px);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}

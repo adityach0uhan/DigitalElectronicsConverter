@@ -29,7 +29,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="h-full w-full  flex flex-wrap">
+      <div className="h-full w-full  px-2 py-2 flex flex-wrap">
         {BinaryData.length !== 0 ? (
           <Binarypage binaryData={BinaryData} /> 
         ) : (
