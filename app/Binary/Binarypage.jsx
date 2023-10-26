@@ -1,26 +1,30 @@
 import React from "react"
+import { useState, useEffect } from "react"
 import Cards from "../components/Cards"
-import { useEffect, useState } from "react"
-const Binarypage = ({ item }) => {
-  const [data, setdata] = useState({})
-  function loadData() {
-    setdata(item)
-  }
+
+const Binarypage = ({ binaryData }) => {
+
+  const [name, setname] = useState('')
+  const [conversions, setConversions] = useState([])
+
   useEffect(() => {
-    loadData()
+    function loadData() {
+      setname(binaryData.name);
+      setConversions(binaryData.conversions);
+    }
+    loadData();
   }, [])
+
+
   return (
     <>
-      {console.log(data)}
-      <div className='w-full h-full pt-6 bg-green-700'>
-        <h1>{item.name}</h1>
-        {/* {
-          conversionInfo.forEach(conversion => {
-            console.log("Operation: " + conversion.operation)
-          })
-        } */}
-        {/* {item.conversions.map(item => console.log(item))} */}
-        {/* <Cards data={item.conversions} />  */}
+
+      <div className='w-full flex flex-wrap  h-full pt-6 bg-green-200'>
+        <h1>{name}</h1>
+        {conversions.map((item) => {
+           return <Cards data={item} />
+        })}
+
       </div>
 
 
