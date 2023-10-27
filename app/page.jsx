@@ -3,12 +3,10 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import numberSystemsData from '../public/numberSystem.js';
 import Link from 'next/link.js';
-import Binarypage from './Binary/Binarypage.jsx';
 
 export default function Home() {
 
-  const [BinaryData, setBinaryData] = useState([])
-  const [DecimalData, setDecimalData] = useState([])
+  
   const [OctalData, setOctalData] = useState([])
   const [HexaData, setHexaData] = useState([])
 
@@ -17,7 +15,6 @@ export default function Home() {
 
     async function fetchData() {
       try {
-        setBinaryData(numberSystemsData.number_systems[0])
         setDecimalData(numberSystemsData.number_systems[1])
         setOctalData(numberSystemsData.number_systems[2])
         setHexaData(numberSystemsData.number_systems[3])
@@ -38,11 +35,7 @@ export default function Home() {
           <Link href="/Decimal"><div className='centertheText w-32 h-40 text-center md:w-60 hover:bg-violet-600 my-2 mx-2 bg-blue-400 rounded'>Decimal System Conversions</div></Link>
           <Link href="/Octal"><div className='centertheText w-32 h-40 text-center md:w-60 hover:bg-violet-600 my-2 mx-2 bg-blue-400 rounded'>Octal System Conversions</div></Link>
           <Link href="/Hexadecimal"><div className='centertheText w-32 h-40 text-center md:w-60 hover:bg-violet-600 my-2 mx-2 bg-blue-400 rounded'>HexaDecimal System Conversions</div></Link>
-          {/* {BinaryData.length !== 0 ? (
-          <Binarypage binaryData={BinaryData} /> 
-        ) : (
-          "Binary Component is loading"
-        )} */}
+         
 
 
         </div>
