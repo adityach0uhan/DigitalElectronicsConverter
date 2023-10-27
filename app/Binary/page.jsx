@@ -1,10 +1,10 @@
 import React from 'react'
-// import Binarypage from './Binarypage'
+
 
 const page = () => {
   return (
-    <div>This is the Binary Route Page
-      {/* <Binarypage/> */}
+    <div className='text-white text-center'>This is the Binary Route Page
+
     </div>
   )
 }

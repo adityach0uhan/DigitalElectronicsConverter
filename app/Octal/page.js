@@ -1,8 +1,11 @@
 import React from 'react'
 
+
 const page = () => {
   return (
-    <div>page</div>
+    <div className='text-white text-center'>This is the Octal Route Page
+
+    </div>
   )
 }
 
