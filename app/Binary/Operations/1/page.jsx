@@ -3,7 +3,7 @@ import React from 'react'
 import { useState } from 'react';
 import Link from 'next/link';
 
-const Page = () => {
+const DecimaltoBinary = () => {
 
   const [decimalInput, setDecimalInput] = useState('');
   const [binaryOutput, setBinaryOutput] = useState('');
@@ -68,4 +68,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default DecimaltoBinary

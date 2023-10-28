@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import Link from 'next/link';
-const Page = () => {
+const BinaryToHexa = () => {
   const [binaryInput, setBinaryInput] = useState('');
   const [hexadecimalOutput, setHexadecimalOutput] = useState('');
 
@@ -66,4 +66,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default BinaryToHexa;

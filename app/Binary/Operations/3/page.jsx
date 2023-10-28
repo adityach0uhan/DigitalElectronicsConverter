@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import Link from 'next/link';
-const Page = () => {
+const BinaryToOctal = () => {
   const [binaryInput, setBinaryInput] = useState('');
   const [octalOutput, setOctalOutput] = useState('');
 
@@ -66,4 +66,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default BinaryToOctal;
