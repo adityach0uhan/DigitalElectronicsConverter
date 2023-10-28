@@ -1,9 +1,9 @@
-// "use client"
-// import React from 'react';
+"use client"
+import React from 'react';
 // import { useState, useEffect } from 'react';
 // import numberSystemsData from '../public/numberSystem.js';
 
-// const page = () => {
+const Page = () => {
 //   const [DecimalData, setDecimalData] = useState([])
 //   useEffect(() => {
 //     async function fetchData() {
@@ -15,11 +15,11 @@
 //     }
 //     fetchData();
 //   }, [''])
-//   return (
-//     <div className='text-white text-center'>This is the Decimal Route Page
+  return (
+    <div className='text-white text-center'>This is the Decimal Route Page
 
-//     </div>
-//   )
-// }
+    </div>
+  )
+}
 
-// export default page
+export default Page
