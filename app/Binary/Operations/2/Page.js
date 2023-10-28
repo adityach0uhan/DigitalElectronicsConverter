@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import Link from 'next/link';
-const BinaryToDecimalConverter = () => {
+const Page = () => {
     const [binaryInput, setBinaryInput] = useState('');
     const [decimalOutput, setDecimalOutput] = useState('');
 
@@ -53,4 +53,4 @@ const BinaryToDecimalConverter = () => {
     );
 };
 
-export default BinaryToDecimalConverter;
+export default Page;

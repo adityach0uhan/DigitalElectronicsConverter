@@ -1,9 +1,9 @@
 "use client"
 import React from 'react'
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 
-const page = () => {
+const Page = () => {
 
   const [decimalInput, setDecimalInput] = useState('');
   const [binaryOutput, setBinaryOutput] = useState('');
@@ -68,4 +68,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
