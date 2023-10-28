@@ -56,7 +56,7 @@ const Header = () => {
               } origin-top-right bg-green-100 mt-2 p-2 rounded-lg shadow-lg`}
           >
             <Link href="/">
-              <div className="text-black cursor-pointer p-2">Home</div>
+              <div className="text-black cursor-pointer p-2"><i className="fa-solid fa-house fa-bounce"></i>Home</div>
             </Link>
             <Link href="/Modes">
               <div className="text-black cursor-pointer p-2">Modes</div>

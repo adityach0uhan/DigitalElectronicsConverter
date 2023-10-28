@@ -27,6 +27,7 @@ export default function Home() {
 
   return (
     <>
+
       <div className='flex flex-row bg-black-900 flex-wrap'>
         <div className='m-auto text-white text-l md:text-2xl font-extrabold my-10 text-bold mb-4'>Number System Conversions</div>
         <div className=" w-full justify-center py-1 align-center flex flex-wrap">
