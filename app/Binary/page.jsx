@@ -3,7 +3,7 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import numberSystemsData from '../../public/numberSystem';
 import Binarypage from './Binarypage';
-const page = () => {
+const Page = () => {
   const [BinaryData, setBinaryData] = useState([])
   useEffect(() => {
     async function fetchData() {
@@ -14,7 +14,7 @@ const page = () => {
       }
     }
     fetchData();
-  }, [''])
+  },[])
 
   return (
     <div className='text-white text-center'>
@@ -28,4 +28,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -12,7 +12,7 @@ const Binarypage = ({ binaryData }) => {
       setConversions(binaryData.conversions);
     }
     loadData();
-  }, [''])
+  }, [])
 
 
   return (
