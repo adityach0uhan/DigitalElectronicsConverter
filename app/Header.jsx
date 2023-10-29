@@ -13,7 +13,7 @@ const Header = () => {
     <nav className="bg-white-100 p-4 ">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/">
-          <div className="text-white text-2xl font-semibold cursor-pointer">Digital Calculator</div>
+          <div className="text-white text-2xl font-semibold cursor-pointer">Digital Electronics Calculator</div>
         </Link>
         <div className="hidden md:flex space-x-4">
           <Link href="/">
@@ -53,16 +53,16 @@ const Header = () => {
           <div
             id="mobile-menu"
             className={`absolute top-12 right-0 transform transition-transform ${mobileMenuOpen ? 'scale-100' : 'scale-0'
-              } origin-top-right bg-green-100 mt-2 p-2 rounded-lg shadow-lg`}
+              } origin-top-right bg-black text-white mt-2 p-2 rounded-lg shadow-lg`}
           >
             <Link href="/">
-              <div className="text-black cursor-pointer p-2"><i className="fa-solid fa-house fa-bounce"></i>Home</div>
+              <div className=" cursor-pointer hover:bg-white hover:text-black p-2">Home</div>
             </Link>
             <Link href="/Modes">
-              <div className="text-black cursor-pointer p-2">Modes</div>
+              <div className=" cursor-pointer hover:bg-white hover:text-black p-2">Modes</div>
             </Link>
-            <Link href="/about">
-              <div className="text-black cursor-pointer p-2">About</div>
+            <Link href="/About">
+              <div className=" cursor-pointer hover:bg-white hover:text-black p-2">About</div>
             </Link>
           </div>
         </div>
