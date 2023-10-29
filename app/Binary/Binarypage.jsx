@@ -21,7 +21,7 @@ const Binarypage = ({ binaryData }) => {
       <h1 className=" text-white text-xl mt-10 ml-5"> {name} Number System </h1>
       <div className=' w-full flex flex-wrap justify-around  h-full pt-6 rounded'>
         {conversions.map((item, index) => {
-          return <Cards data={item} key={index} index={index} />
+          return <Cards data={item} key={index} NumSys={"Binary"} index={index} />
         })}
 
       </div>
