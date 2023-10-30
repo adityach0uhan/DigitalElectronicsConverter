@@ -22,7 +22,7 @@ const Header = () => {
           <Link href="/Modes">
             <div className="text-white cursor-pointer hover:underline">Modes</div>
           </Link>
-          <Link href="/about">
+          <Link href="/About">
             <div className="text-white cursor-pointer hover:underline">About</div>
           </Link>
         </div>
