@@ -38,26 +38,44 @@ const BCDAddition = () => {
     };
 
     const performBCDAddition = (bcd1, bcd2) => {
-        const decimal1 = parseInt(bcd1, 10);
-        const decimal2 = parseInt(bcd2, 10);
-        const sum = (decimal1 + decimal2).toString();
+        const result = [];
 
-        return sum.padStart(4, '0');
+        let carry = 0;
+        for (let i = bcd1.length - 1; i >= 0; i--) {
+            const digit1 = parseInt(bcd1[i]);
+            const digit2 = parseInt(bcd2[i]);
+            const digitSum = digit1 + digit2 + carry;
+
+            if (digitSum >= 10) {
+                result[i] = (digitSum - 10).toString();
+                carry = 1;
+            } else {
+                result[i] = digitSum.toString();
+                carry = 0;
+            }
+        }
+
+        if (carry === 1) {
+            alert("BCD overflow: The result is not a valid BCD.");
+            return '';
+        }
+
+        return result.join('');
     };
 
     return (
-        <div className="max-w-md mx-auto p-4 text-white w-full h-full">
-            <h2 className="text-2xl font-bold mb-4">BCD Addition</h2>
+        <div className="max-w-md mx-auto p-4">
+            <h2 className="text-2xl text-white font-bold mb-4">BCD Addition</h2>
             <input
                 type="text"
-                className="w-full p-2 border text-black rounded-md mb-2"
+                className="w-full p-2 text-black border rounded-md mb-2"
                 placeholder="Enter BCD Number 1"
                 value={bcdInput1}
                 onChange={handleInput1Change}
             />
             <input
                 type="text"
-                className="w-full p-2 text-black border rounded-md mb-2"
+                className="w-full text-black p-2 border rounded-md mb-2"
                 placeholder="Enter BCD Number 2"
                 value={bcdInput2}
                 onChange={handleInput2Change}

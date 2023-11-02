@@ -4,7 +4,7 @@
 @import "~font-awesome/css/font-awesome.css";
 
 body {
-    height:max-content;
+    height:100%;
     width: 100vw;
     background-image: url(../public/1bg.jpeg);
     background-size:contain;
