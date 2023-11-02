@@ -20,11 +20,39 @@ export default function Home() {
           </Link>
 
           <Link href="/Hexadecimal"><div className='centertheText w-32 h-40 text-center md:w-60 hover:bg-violet-600 my-2 mx-2 bg-blue-400 rounded'>HexaDecimal System Conversions</div></Link>
-         
-
 
         </div>
       </div>
+
+
+      <div className='flex flex-row bg-black-900 flex-wrap'>
+        <div className='m-auto text-white text-l md:text-2xl font-extrabold my-10 text-bold mb-4'>Number System Calculations</div>
+        <div className=" w-full justify-center py-1 align-center flex flex-wrap">
+
+          <Link href="/"><div className='centertheText w-32 h-40 text-center md:w-60 hover:bg-violet-600 my-2 mx-2 bg-blue-400 rounded'>BCD Addition</div></Link>
+
+          <Link href="/"><div className='centertheText w-32 h-40 text-center md:w-60 hover:bg-violet-600 my-2 mx-2 bg-blue-400 rounded'>BCD Substraction </div></Link>
+
+        </div>
+      </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </>
 
 

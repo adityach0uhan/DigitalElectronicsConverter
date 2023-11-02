@@ -4,14 +4,14 @@
 @import "~font-awesome/css/font-awesome.css";
 
 body {
-    height: 100vh;
+    height:max-content;
     width: 100vw;
     background-image: url(../public/1bg.jpeg);
-    background-size:cover;
+    background-size:contain;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat:repeat;
     background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(13px);
 }
 .centertheText{
 
@@ -19,6 +19,5 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 
 }
