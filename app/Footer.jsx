@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="w-full max-w-screen-xl mx-auto px-4 md:py-4">
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <a href="/" className="flex items-center mb-1 sm:mb-0">
-                        <span className="self-center text-2xl mt-3 font-semibold md:whitespace-nowrap dark:text-white">Information</span>
+                        <span className="self-center text-2xl mt-3 font-semibold md:whitespace-nowrap text-white dark:text-white">Information</span>
                     </a>
                     <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                         <li className='m-3'>
