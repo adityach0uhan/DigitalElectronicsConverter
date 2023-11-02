@@ -4,11 +4,11 @@ const Footer = () => {
     return (
 
         <footer className="">
-             <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-            <div className="w-full max-w-screen-xl mx-auto p-3 md:py-8">
+             <hr className="my-1 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <div className="w-full max-w-screen-xl mx-auto px-4 md:py-4">
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <a href="/" className="flex items-center mb-4 sm:mb-0">
-                        <span className="self-center text-2xl font-semibold md:whitespace-nowrap dark:text-white">Information</span>
+                    <a href="/" className="flex items-center mb-1 sm:mb-0">
+                        <span className="self-center text-2xl mt-3 font-semibold md:whitespace-nowrap dark:text-white">Information</span>
                     </a>
                     <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                         <li className='m-3'>
