@@ -11,7 +11,7 @@ body {
     background-position: center;
     background-repeat:repeat;
     background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(13px);
+    backdrop-filter: blur(12px);
 }
 .centertheText{
 
