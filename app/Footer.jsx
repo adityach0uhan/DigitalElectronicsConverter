@@ -30,6 +30,7 @@ const Footer = () => {
                 </div>
                 <hr className="my-6 border-gray-400 sm:mx-auto dark:border-gray-700 lg:my-8" />
                 <span className="block text-xs text-gray-500 sm:text-center dark:text-gray-400">This website is part of a mini project and is intended for educational and demonstration purposes only. The information presented on this website may not be up-to-date, accurate, or complete.</span>
+                <hr className="my-6 border-gray-400 sm:mx-auto dark:border-gray-700 lg:my-8" />
             </div>
         </footer>
 
