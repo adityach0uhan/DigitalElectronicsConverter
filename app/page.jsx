@@ -33,6 +33,7 @@ export default function Home() {
 
           <Link href="/BCD/Subtraction"><div className='centertheText w-32 h-40 text-center md:w-60 hover:bg-violet-600 my-2 mx-2 bg-blue-400 rounded'>BCD Subtraction </div></Link>
 
+          <Link href="/Excess3"><div className='centertheText w-32 h-40 text-center md:w-60 hover:bg-violet-600 my-2 mx-2 bg-blue-400 rounded'>Excess 3 </div></Link>
         </div>
       </div>
 
