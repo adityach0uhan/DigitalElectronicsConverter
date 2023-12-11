@@ -85,7 +85,7 @@ const BCDSubtraction = () => {
             >
                 Subtract
             </button>
-            <div className="mt-4 text-black ">XS-3 Result: {xs3Result}</div>
+            <div className="mt-4 text-white ">XS-3 Result: {xs3Result}</div>
         </div>
     );
 };
