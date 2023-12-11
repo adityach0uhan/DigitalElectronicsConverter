@@ -86,7 +86,7 @@ const BCDAddition = () => {
             >
                 Add
             </button>
-            <div className="mt-4">BCD Sum: {bcdSum}</div>
+            <div className="mt-4 text-white">BCD Sum: {bcdSum}</div>
         </div>
     );
 };
