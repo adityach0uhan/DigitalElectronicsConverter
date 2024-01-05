@@ -17,7 +17,7 @@ const Page = () => {
   },[])
 
   return (
-    <div className='text-white text-center'>
+    <div className='text-black text-center'>
        {BinaryData.length !== 0 ? (
           <Binarypage binaryData={BinaryData} /> 
         ) : (

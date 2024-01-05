@@ -63,7 +63,7 @@ const BCDSubtraction = () => {
     };
 
     return (
-        <div className="max-w-md text-white mx-auto p-4">
+        <div className="max-w-md text-black mx-auto p-4">
             <h2 className="text-2xl font-bold mb-4">XS-3 Subtraction</h2>
             <input
                 type="text"
@@ -80,12 +80,12 @@ const BCDSubtraction = () => {
                 onChange={handleInput2Change}
             />
             <button
-                className="w-full bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600"
+                className="w-full bg-blue-500 text-black p-2 rounded-md hover:bg-blue-600"
                 onClick={subtractXS3}
             >
                 Subtract
             </button>
-            <div className="mt-4 text-white ">XS-3 Result: {xs3Result}</div>
+            <div className="mt-4 text-black ">XS-3 Result: {xs3Result}</div>
         </div>
     );
 };

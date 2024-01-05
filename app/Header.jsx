@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <nav className="bg-white-100 p-4 ">
+    <nav className="bg-black text-white p-4 ">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/">
           <div className="text-white text-2xl font-semibold cursor-pointer">Digital Electronics Calculator</div>
@@ -34,7 +34,7 @@ const Header = () => {
             className="text-white cursor-pointer w-8 h-8"
           >
             <svg
-              xmlns="http://www.w3.org/2000/svg"
+              xmlns=""
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -56,13 +56,13 @@ const Header = () => {
               } origin-top-right bg-black text-white mt-2 p-2 rounded-lg shadow-lg`}
           >
             <Link href="/">
-              <div className=" cursor-pointer hover:bg-white hover:text-black p-2">Home</div>
+              <div className=" cursor-pointer hover:bg-white hover:text-white p-2">Home</div>
             </Link>
             <Link href="/Modes">
-              <div className=" cursor-pointer hover:bg-white hover:text-black p-2">Modes</div>
+              <div className=" cursor-pointer hover:bg-white hover:text-white p-2">Modes</div>
             </Link>
             <Link href="/About">
-              <div className=" cursor-pointer hover:bg-white hover:text-black p-2">About</div>
+              <div className=" cursor-pointer hover:bg-white hover:text-white p-2">About</div>
             </Link>
           </div>
         </div>

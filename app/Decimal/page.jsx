@@ -17,7 +17,7 @@ const Page = () => {
     }, [])
 
     return (
-        <div className='text-white text-center'>
+        <div className='text-black text-center'>
             {decimalData.length !== 0 ? (
                 <DecimalPage decimalData={decimalData} />
             ) : (

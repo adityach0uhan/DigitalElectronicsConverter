@@ -35,7 +35,7 @@ const Decimal2Binary = () => {
 
     return (
         <>
-            <div className='text-white flex m-auto my-10 flex-col align-center justify-center md:w-1/3'>
+            <div className='text-black flex m-auto my-10 flex-col align-center justify-center md:w-1/3'>
                 <h2 className='text-center text-xl md:text-2xl py-10'>Decimal to Binary</h2>
                 <div className='centertheText'>
                     <input

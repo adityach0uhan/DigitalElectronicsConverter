@@ -5,13 +5,14 @@
 
 body {
     height:100%;
+    color: black;
     width: 100vw;
-    background-image: url(../public/1bg.jpeg);
+    background-image: url(../public/whiteBg.jpg);
     background-size:contain;
     background-position: center;
     background-repeat:repeat;
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(12px);
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(100px);
 }
 .centertheText{
 

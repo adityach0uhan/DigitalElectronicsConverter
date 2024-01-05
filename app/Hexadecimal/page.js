@@ -17,7 +17,7 @@ const Page = () => {
   }, [])
 
   return (
-    <div className='text-white text-center'>
+    <div className='text-black text-center'>
       {HexaData.length !== 0 ? (
         <Hexadecimal HexaData={HexaData} />
       ) : (

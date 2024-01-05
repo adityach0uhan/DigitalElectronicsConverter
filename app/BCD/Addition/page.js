@@ -65,7 +65,7 @@ const BCDAddition = () => {
 
     return (
         <div className="max-w-md mx-auto p-4">
-            <h2 className="text-2xl text-white font-bold mb-4">BCD Addition</h2>
+            <h2 className="text-2xl text-black font-bold mb-4">BCD Addition</h2>
             <input
                 type="text"
                 className="w-full p-2 text-black border rounded-md mb-2"
@@ -81,12 +81,12 @@ const BCDAddition = () => {
                 onChange={handleInput2Change}
             />
             <button
-                className="w-full bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600"
+                className="w-full bg-blue-500 text-black p-2 rounded-md hover:bg-blue-600"
                 onClick={addBCD}
             >
                 Add
             </button>
-            <div className="mt-4 text-white">BCD Sum: {bcdSum}</div>
+            <div className="mt-4 text-black">BCD Sum: {bcdSum}</div>
         </div>
     );
 };
