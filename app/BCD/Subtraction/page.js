@@ -58,7 +58,7 @@ const BCDSubtraction = () => {
   };
 
   return (
-    <div className="max-w-md text-black mx-auto p-4 w-full">
+    <div className="max-w-md text-black mx-auto p-4 min-h-screen">
       <h2 className="text-2xl   font-bold mb-4">BCD Subtraction</h2>
       <input
         type="text"

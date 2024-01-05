@@ -64,7 +64,7 @@ const BCDAddition = () => {
     };
 
     return (
-        <div className="max-w-md mx-auto p-4 w-full">
+        <div className="max-w-md mx-auto p-4 w-full min-h-screen">
             <h2 className="text-2xl text-black font-bold mb-4">BCD Addition</h2>
             <input
                 type="text"
