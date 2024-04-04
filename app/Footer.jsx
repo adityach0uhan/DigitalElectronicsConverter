@@ -21,7 +21,7 @@ const Footer = () => {
                             <a href="https://github.com/dheeraj4200" className="mr-4 hover:underline md:mr-6 hover:text-black">Dheeraj Patel</a>
                         </li>
                         <li className='m-2'>
-                            <a href="https://github.com/Arjun-project" className="mr-4 hover:underline md:mr-6 hover:text-black">Arjun Kushwaha</a>
+                            <a href="https://github.com/ArjunKushwaha01" className="mr-4 hover:underline md:mr-6 hover:text-black">Arjun Kushwaha</a>
                         </li>
                         <li className='m-2' >
                             <a href="https://github.com/Aman140404" className="hover:underline hover:text-black">Aman Gupta</a>
